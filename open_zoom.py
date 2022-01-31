@@ -41,20 +41,20 @@ def course_5():
 
 
 # CHANGE DATES AND TIMES FOR ZOOM MEETINGS
-schedule.every().monday.at("10:00").do(C1)
-schedule.every().wednesday.at("10:00").do(C1)
+schedule.every().monday.at("10:00").do(course_1)
+schedule.every().wednesday.at("10:00").do(course_1)
 
-schedule.every().monday.at("11:00").do(C2)
-schedule.every().wednesday.at("11:00").do(C2)
+schedule.every().monday.at("11:00").do(course_2)
+schedule.every().wednesday.at("11:00").do(course_2)
 
-schedule.every().monday.at("12:00").do(C3)
-schedule.every().wednesday.at("12:00").do(C3)
+schedule.every().monday.at("12:00").do(course_3)
+schedule.every().wednesday.at("12:00").do(course_3)
 
-schedule.every().monday.at("13:00").do(C4)
-schedule.every().wednesday.at("13:00").do(C4)
+schedule.every().monday.at("13:00").do(course_4)
+schedule.every().wednesday.at("13:00").do(course_4)
 
-schedule.every().tuesday.at("14:00").do(C5)
-schedule.every().thursday.at("14:00").do(C5)
+schedule.every().tuesday.at("14:00").do(course_5)
+schedule.every().thursday.at("14:00").do(course_5)
 
 
 while True:
